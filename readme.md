@@ -1,4 +1,4 @@
-# concierge
+# primus-concierge
 A room management system meant to work with a redis-backed primus cluster.
 
 # installation
