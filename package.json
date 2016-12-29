@@ -1,0 +1,32 @@
+{
+  "name": "primus-concierge",
+  "description": "room manager for primus clusters",
+  "version": "0.0.1",
+  "author": "Angelo R <xangelo@gmail.com>",
+  "main": "./src/plugin.js",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/AngeloR/primus-concierge"
+  },
+  "keywords": [
+      "primus",
+      "room",
+      "scaling",
+      "websocket"
+  ],
+  "license": "MIT",
+  "bugs": {
+      "url": "https://github.com/AngeloR/primus-concierge/issues"
+  },
+  "homepage": "https://github.com/AngeloR/primus-concierge",
+  "dependencies": {
+    "ioredis": "^2.4.3",
+    "redis": "^2.6.3"
+  },
+  "devDependencies": {
+    "metroplex": "^1.0.0",
+    "omega-supreme": "^2.1.0",
+    "primus": "^6.0.7",
+    "ws": "^1.1.1"
+  }
+}
